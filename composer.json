@@ -1,0 +1,59 @@
+{
+  "name": "studioespresso/craft-mailersend",
+  "description": "MailerSend adapter for Craft CMS",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "cms",
+    "craftcms",
+    "mailersend",
+    "mailer",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Studio Espresso",
+      "homepage": "https://www.studioespresso.co/"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/studioespresso/craft-mailersend/issues?state=open",
+    "source": "https://github.com/studioespresso/craft-mailersend",
+    "docs": "https://github.com/studioespresso/craft-mailersend/blob/master/README.md",
+    "rss": "https://github.com/studioespresso/craft-mailersend/commits/master.atom"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "craftcms/cms": "^4.0.0-alpha.1",
+    "symfony/mailer-send-mailer": "^v6.0.0"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main",
+    "craftcms/rector": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "studioespresso\\mailersend\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "MailerSend",
+    "handle": "mailersend",
+    "documentationUrl": "https://github.com/studioespresso/craft-mailersend/blob/master/README.md"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}

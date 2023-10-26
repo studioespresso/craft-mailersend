@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.autosuggestField({
+    label: "Server Token"|t('mailersend'),
+    instructions: "The MailerSend server API token."|t('mailersend'),
+    id: 'token',
+    name: 'token',
+    value: adapter.token,
+    suggestEnvVars: true,
+    errors: adapter.getErrors('token')
+}) }}
