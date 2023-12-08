@@ -40,7 +40,7 @@ class Adapter extends BaseTransportAdapter
     public function attributeLabels()
     {
         return [
-            'token' => Craft::t('postmark', 'Token'),
+            'token' => Craft::t('mailersend', 'Token'),
         ];
     }
 
