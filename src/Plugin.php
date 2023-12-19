@@ -28,7 +28,7 @@ class Plugin extends \craft\base\Plugin
 
         Event::on(
             MailerHelper::class,
-            MailerHelper::EVENT_REGISTER_MAILER_TRANSPORT_TYPES,
+            MailerHelper::EVENT_REGISTER_MAILER_TRANSPORTS,
             function(RegisterComponentTypesEvent $event) {
                 $event->types[] = Adapter::class;
             }

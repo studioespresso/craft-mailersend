@@ -2,7 +2,7 @@
   "name": "studioespresso/craft-mailersend",
   "description": "MailerSend adapter for Craft CMS",
   "type": "craft-plugin",
-  "version": "1.0.1",
+  "version": "5.0.0-alpha.1",
   "keywords": [
     "cms",
     "craftcms",
@@ -21,13 +21,13 @@
     "email": "support@craftcms.com",
     "issues": "https://github.com/studioespresso/craft-mailersend/issues?state=open",
     "source": "https://github.com/studioespresso/craft-mailersend",
-    "docs": "https://github.com/studioespresso/craft-mailersend/blob/master/README.md",
-    "rss": "https://github.com/studioespresso/craft-mailersend/commits/master.atom"
+    "docs": "https://github.com/studioespresso/craft-mailersend/blob/v5/README.md",
+    "rss": "https://github.com/studioespresso/craft-mailersend/commits/v5.atom"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/cms": "^4.0.0-alpha.1",
+    "craftcms/cms": "^5.0.0-alpha",
     "symfony/mailer-send-mailer": "^v6.0.0"
   },
   "require-dev": {
@@ -43,7 +43,7 @@
   "extra": {
     "name": "MailerSend",
     "handle": "mailersend",
-    "documentationUrl": "https://github.com/studioespresso/craft-mailersend/blob/master/README.md"
+    "documentationUrl": "https://github.com/studioespresso/craft-mailersend/blob/v5/README.md"
   },
   "scripts": {
     "check-cs": "ecs check --ansi",
