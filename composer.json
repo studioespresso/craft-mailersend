@@ -2,7 +2,7 @@
   "name": "studioespresso/craft-mailersend",
   "description": "MailerSend adapter for Craft CMS",
   "type": "craft-plugin",
-  "version": "5.0.0-alpha.1",
+  "version": "5.0.0",
   "keywords": [
     "cms",
     "craftcms",
